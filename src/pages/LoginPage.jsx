@@ -1,19 +1,26 @@
 import { useLocation, useNavigate } from "react-router"
-import {useContext, useState} from "react"
+import {useContext, useEffect, useState} from "react"
 import { LoginContext } from "../contexts/LoginContext"
 
 const LoginPage = () => {
   const location = useLocation()
   const navigate = useNavigate()
   const from = location.state?.from?.pathname || '/'
-  const {login, user} = useContext(LoginContext)
+  const {login, usuario} = useContext(LoginContext)
   const [email, setEmail] = useState('')
   const [psw, setPsw] = useState('')
+
+  useEffect(() => {
+    if (JSON.stringify(usuario) !== '{}' || (typeof user !== 'undefined')) {
+      console.log(from)
+      navigate(from, { replace: true })
+    }
+  },[usuario])
+  
+
   const handleSubmit = (e) => {
     e.preventDefault()
     login({ email, psw })
-    console.log(user)
-    navigate(from, {replace: true})
   }
   const onEmailChange = (e) => {
     setEmail(e.target.value)
