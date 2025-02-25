@@ -6,14 +6,13 @@ const LoginPage = () => {
   const location = useLocation()
   const navigate = useNavigate()
   const from = location.state?.from?.pathname || '/'
-  const {login} = useContext(LoginContext)
+  const {login, user} = useContext(LoginContext)
   const [email, setEmail] = useState('')
-  // const [surName, setSurName] = useState('')
   const [psw, setPsw] = useState('')
   const handleSubmit = (e) => {
     e.preventDefault()
-    // console.log({ nombreUsu: name, apellidosUsu: surName, psw })
     login({ email, psw })
+    console.log(user)
     navigate(from, {replace: true})
   }
   const onEmailChange = (e) => {
@@ -29,7 +28,7 @@ const LoginPage = () => {
         <form className='w-100' onSubmit={handleSubmit}>
           <div className='inputFormLoginContainer'>
               <h4 style={{marginBottom: 0}}>E-mail: </h4>
-              <input type="text" placeholder='E-mail' autoComplete="off" onChange={onEmailChange} />
+              <input type="email" placeholder='E-mail' autoComplete="off" onChange={onEmailChange} />
           </div>
           <div className= 'inputFormLoginContainer'>
             <h4 style={{marginBottom: 0}}>Password: </h4>

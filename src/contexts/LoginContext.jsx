@@ -11,7 +11,6 @@ const reducer = (state, action) => {
   const {type, payload} = action
   switch (type) {
     case "LOGIN": {
-      console.log('payload', payload)
       const { email, psw } = payload
       const index = users.findIndex(user => (user.email === email) && (psw === user.psw))
       console.log('index: ', index)
