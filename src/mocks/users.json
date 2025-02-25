@@ -1,0 +1,37 @@
+[
+  {
+    "id": "01",
+    "nombre": "Guillermo Alfredo",
+    "apellidos": "Fernández Martínez",
+    "email" : "fernandez.martinez1403@gmail.com",
+    "psw": "1234"
+  },
+  {
+    "id": "02",
+    "nombre": "Ana Eloísa",
+    "apellidos": "Martínez Roca",
+    "email" : "xxxxxxx@gmail.com",
+    "psw": "1234"
+  },
+  {
+    "id": "03",
+    "nombre": "Bedael",
+    "apellidos": "Fernández Martínez",
+    "email" : "xxxxxxx@gmail.com",
+    "psw": "1234"
+  },
+  {
+    "id": "04",
+    "nombre": "Ana Amneris",
+    "apellidos": "Roca Días",
+    "email" : "xxxxxxx@gmail.com",
+    "psw": "1234"
+  },
+  {
+    "id": "01",
+    "nombre": "Yudith",
+    "apellidos": "Fernández González",
+    "email" : "xxxxxxx@gmail.com",
+    "psw": "1234"
+  }
+]
