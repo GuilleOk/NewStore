@@ -23,7 +23,7 @@ const ProductCard = ({ category, description, image, price, title, id }) => {
       <div style={{overflow: 'hidden'}}>
         <img src={image} alt={title} className="productImage" />
       </div>
-      <h4 style={{ textAlign: 'center', margin: '0 .1rem', zIndex: 1000 }}>{title}</h4>
+      <h4 style={{ textAlign: 'center', margin: '0 .1rem', zIndex: 800 }}>{title}</h4>
       <div style={{margin: '1rem .5rem', display: 'flex', justifyContent: 'space-around'}}>
         <button className="btn btn-outline-primary">Price: ${price}</button>  
         <button className="btn btn-outline-primary" onClick={handleView}><WatchDescription /></button>  
