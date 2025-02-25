@@ -57,7 +57,7 @@ const CartPage = () => {
       <div className="d-flex justify-content-center gap-5 align-items-center mt-5">
         <button className="btn btn-primary anotherPrimary">Total to pay</button>
         <div style={{fontSize: 'x-large'}}>
-          ${totalToPay}
+          ${totalToPay.toFixed(2)}
         </div>
       </div>
       <div className="d-flex justify-content-center my-5">
