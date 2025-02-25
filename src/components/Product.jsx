@@ -23,7 +23,10 @@ const Product = ({ product }) => {
             <div onClick={() => decreaseAmount({category: product.category, id: product.id})}>
               <ReduceAmount />
             </div>
-            <p style={{ margin: '0', fontWeight: 'bold' }}>Amount: {product.amount}</p>
+            <div style={{textAlign: 'start'}}>
+              Total per product: ${product.price * product.amount}
+            </div>
+            <p style={{ margin: '0', fontWeight: 'bold', textAlign: 'end' }}>Amount: {product.amount}</p>
             <div onClick={() => handleIncreaseAmount({id: product.id, category: product.category})}>
               <AddAmount />
             </div>

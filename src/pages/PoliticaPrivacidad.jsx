@@ -2,7 +2,7 @@ const PoliticaPrivacidad = () => {
   return (
     <div>
       <div className="d-none d-lg-block aboutContainer">
-        <h1 className="headerAbout">Privacy Policy</h1>
+        <h1 className="headerAbout">PRIVACY POLICY</h1>
         <p className="textAbout">At <strong>Click and Chic</strong>, we value your privacy and are committed to protecting your personal information. This Privacy Policy describes how we collect, use, and protect the information we obtain through our website.</p>
         <h2 className="titlesAbout">Information We Collect</h2>
         <p className="textAbout">When you register on <strong>Click and Chic</strong>, we ask for a username and password. This information is used solely to ensure the security of your account and is not shared with third parties.</p>

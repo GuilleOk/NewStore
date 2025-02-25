@@ -20,8 +20,8 @@ const Footer = () => {
           <div><a href="..."><img src="images/redes_sociales/linkedin_3536505.png" alt="linkedin" className="d-none d-lg-inline Logo" /></a></div>
           <div><a href="..."><img src="images/redes_sociales/linkedin_3536505.png" alt="linkedin" className="d-inline d-lg-none LogoSM" /></a></div>
           
-          <div><a href="..."><img src="images/redes_sociales/twitter_2504947.png" alt="twitter" className="d-none d-lg-inline Logo" /></a></div>
-          <div><a href="..."><img src="images/redes_sociales/twitter_2504947.png" alt="twitter" className="d-inline d-lg-none LogoSM" /></a></div>
+          <div><a href="..."><img src="images/redes_sociales/X.png" alt="twitter" className="d-none d-lg-inline Logo" /></a></div>
+          <div><a href="..."><img src="images/redes_sociales/X.png" alt="twitter" className="d-inline d-lg-none LogoSM" /></a></div>
           
           <div><a href="..."><img src="images/redes_sociales/youtube_3938037.png" alt="youtube" className="d-none d-lg-inline Logo" /></a></div>
           <div><a href="..."><img src="images/redes_sociales/youtube_3938037.png" alt="youtube" className="d-inline d-lg-none LogoSM" /></a></div>
