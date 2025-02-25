@@ -72,7 +72,7 @@ const PoliticaPrivacidad = () => {
             <p className="textAboutSM">LinkedIn</p>
           </li>
           <li>
-            <p className="textAboutSM">Twitter</p>
+            <p className="textAboutSM">X</p>
           </li>
           <li>
             <p className="textAboutSM">YouTube</p>
@@ -81,7 +81,7 @@ const PoliticaPrivacidad = () => {
         <h2 className="titlesAboutSM">Changes to This Policy</h2>
         <p className="textAboutSM">We reserve the right to update this Privacy Policy at any time. Any changes will be posted on this page with a new update date.</p>
         <h2 className="titlesAboutSM">Contact</h2>
-        <p className="textAboutSM">If you have any questions about this Privacy Policy, please feel free to contact us at the email address <strong>xxxxxXXXXXXXxxxxx@gmail.com</strong>.</p>
+        <p className="textAboutSM">If you have any questions about this Privacy Policy, please feel free to contact us at the email address <strong>miprivacidad@gmail.com</strong>.</p>
       </div>
     </div>
   );

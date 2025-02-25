@@ -5,6 +5,7 @@ import { Cart } from "./ModifyAmount"
 
 const Navbar = () => {
   const { usuario, logout } = useContext(LoginContext)
+  
   return (
     <nav className="navbar navbar-expand-lg bg-body-mine">
       <img src="/images/LOGO_OK.png" alt="Logo" className="LogoNavbar" />

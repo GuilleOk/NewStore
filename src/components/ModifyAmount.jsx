@@ -34,3 +34,27 @@ export const Cart = () => {
     ></animated-icons>
   )
 }
+
+export const WatchDescription = () => {
+  return (
+    <animated-icons
+      src="https://animatedicons.co/get-icon?name=Eye%20V2&style=minimalistic&token=b475525b-bc75-4278-8410-1dd06840d386"
+      trigger="hover"
+      attributes='{"variationThumbColour":"#000000","variationName":"Dark","variationNumber":4,"numberOfGroups":2,"strokeWidth":1.9,"backgroundIsGroup":true,"defaultColours":{"group-1":"#E6E9EC","group-2":"#000000","background":"#000000"}}'
+      height="2.2rem"
+      width="2.2rem"
+    ></animated-icons>
+  )
+}
+
+export const CartShop = () => {
+  return (
+    <animated-icons
+      src="https://animatedicons.co/get-icon?name=shopping&style=minimalistic&token=1a426870-e168-49f4-b12a-f584dc9f311e"
+      trigger="hover"
+      attributes='{"variationThumbColour":"#000000","variationName":"Dark","variationNumber":4,"numberOfGroups":2,"strokeWidth":1.9,"backgroundIsGroup":true,"defaultColours":{"group-1":"#E6E9EC","group-2":"#000000","background":"#000000"}}'
+      height="2.2rem"
+      width="2.2rem"
+    ></animated-icons>
+  )
+}
