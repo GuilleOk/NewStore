@@ -42,7 +42,7 @@ const Footer = () => {
       <div className='d-flex d-lg-none SecondContainer px-2 py-3 gap-2'>
         <div className="d-inline d-lg-none textFooterSM">All Rigths Reserved</div>
         
-        <div className="d-inline d-lg-none textFooterSM"><strong>Follow us in:</strong> <a href="#" className="linksFooter">clickandchic@clickstore.com</a> </div>
+        <div className="d-inline d-lg-none textFooterSM"><strong>Follow us in:</strong> <a className="linksFooter">clickandchic@clickstore.com</a> </div>
         
         <div className="d-inline d-lg-none textFooterSM"><Link to='/about' className="linksFooter">About us</Link></div>
         
