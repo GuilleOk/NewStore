@@ -11,20 +11,20 @@ const Footer = () => {
           <img src="images/LOGO_OK.png" alt="Logo" className="LogoFooterSM" />
         </div>
         <div className="redesSocialesContainer gap-1">
-          <div><a href="..."><img src="images/redes_sociales/facebook_2504903.png" alt="facebook" className="d-none d-lg-inline Logo" /></a></div>
-          <div><a href="..."><img src="images/redes_sociales/facebook_2504903.png" alt="facebook" className="d-inline d-lg-none LogoSM" /></a></div>
+          <div><img src="images/redes_sociales/facebook_2504903.png" alt="facebook" className="d-none d-lg-inline Logo" /></div>
+          <div><img src="images/redes_sociales/facebook_2504903.png" alt="facebook" className="d-inline d-lg-none LogoSM" /></div>
           
-          <div><a href="..."><img src="images/redes_sociales/instagram_2111463.png" alt="instagram" className="d-none d-lg-inline Logo" /></a></div>
-          <div><a href="..."><img src="images/redes_sociales/instagram_2111463.png" alt="instagram" className="d-inline d-lg-none LogoSM" /></a></div>
+          <div><img src="images/redes_sociales/instagram_2111463.png" alt="instagram" className="d-none d-lg-inline Logo" /></div>
+          <div><img src="images/redes_sociales/instagram_2111463.png" alt="instagram" className="d-inline d-lg-none LogoSM" /></div>
           
-          <div><a href="..."><img src="images/redes_sociales/linkedin_3536505.png" alt="linkedin" className="d-none d-lg-inline Logo" /></a></div>
-          <div><a href="..."><img src="images/redes_sociales/linkedin_3536505.png" alt="linkedin" className="d-inline d-lg-none LogoSM" /></a></div>
+          <div><img src="images/redes_sociales/linkedin_3536505.png" alt="linkedin" className="d-none d-lg-inline Logo" /></div>
+          <div><img src="images/redes_sociales/linkedin_3536505.png" alt="linkedin" className="d-inline d-lg-none LogoSM" /></div>
           
-          <div><a href="..."><img src="images/redes_sociales/X.png" alt="twitter" className="d-none d-lg-inline Logo" /></a></div>
-          <div><a href="..."><img src="images/redes_sociales/X.png" alt="twitter" className="d-inline d-lg-none LogoSM" /></a></div>
+          <div><img src="images/redes_sociales/X.png" alt="twitter" className="d-none d-lg-inline Logo" /></div>
+          <div><img src="images/redes_sociales/X.png" alt="twitter" className="d-inline d-lg-none LogoSM" /></div>
           
-          <div><a href="..."><img src="images/redes_sociales/youtube_3938037.png" alt="youtube" className="d-none d-lg-inline Logo" /></a></div>
-          <div><a href="..."><img src="images/redes_sociales/youtube_3938037.png" alt="youtube" className="d-inline d-lg-none LogoSM" /></a></div>
+          <div><img src="images/redes_sociales/youtube_3938037.png" alt="youtube" className="d-none d-lg-inline Logo" /></div>
+          <div><img src="images/redes_sociales/youtube_3938037.png" alt="youtube" className="d-inline d-lg-none LogoSM" /></div>
         </div>
       </div>
       <div style={{padding: '0 2rem', margin: '0 0'}}>
@@ -33,7 +33,7 @@ const Footer = () => {
       <div className='d-none d-lg-flex SecondContainer px-5 py-3'>
         <div className="d-none d-lg-inline textFooter">All Rigths Reserved</div>
         
-        <div className="d-none d-lg-inline textFooter"><strong>Follow us in:</strong> <a href="#" className="linksFooter">clickandchic@clickstore.com</a> </div>
+        <div className="d-none d-lg-inline textFooter"><strong>Follow us in:</strong> <a className="linksFooter">clickandchic@clickstore.com</a> </div>
         
         <div className="d-none d-lg-inline textFooter"><Link to='/about' className="linksFooter">About us</Link></div>
         
