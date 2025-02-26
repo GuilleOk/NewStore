@@ -188,6 +188,13 @@ height: 50vh;
   width: 80%;
 }
 
+.fontPriceCardCategory{
+  color: rgb(250, 177, 177) !important;
+  font-weight: bolder !important;
+  box-shadow: 0 0 1rem rgb(250, 177, 177);
+  border: .1rem solid rgb(250, 177, 177) !important;
+}
+
 @media (min-width: 992px) {
   .productToShow{
     width: 28%;

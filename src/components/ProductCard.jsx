@@ -39,7 +39,7 @@ const ProductCard = ({ category, description, image, price, title, id }) => {
       </div>
       <h4 style={{ textAlign: 'center', margin: '0 .1rem', zIndex: 800 }}>{title}</h4>
       <div style={{margin: '1rem .5rem', display: 'flex', justifyContent: 'space-around'}}>
-        <button className="btn btn-outline-primary">Price: ${price}</button>  
+        <button className="btn btn-outline-primary fontPriceCardCategory" disabled>Price: ${price}</button>  
         <button className="btn btn-outline-primary" onClick={handleView}><WatchDescription /></button>  
         <button className="btn btn-outline-primary" onClick={()=> handleIncreaseAmount({id, category})}><CartShop /></button>  
       </div>
