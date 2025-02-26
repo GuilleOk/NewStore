@@ -3,7 +3,9 @@
 import { createContext, useReducer } from 'react';
 import users from '../mocks/users.json' 
 
-const initialState = {}
+const initialState = ''
+
+const errorState = {}
 
 export const LoginContext = createContext()
 
@@ -17,7 +19,7 @@ const reducer = (state, action) => {
       if (index !== -1) {
         return { email, nombre: users[index].nombre, apellidos: users[index].apellidos }
       } else {
-        return initialState
+        return errorState
       }
     }
     case "LOGOUT": {

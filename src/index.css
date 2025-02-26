@@ -128,12 +128,20 @@ height: 50vh;
   align-items: center;
 }
 
-.formLogin input{
+.loginInput{
   background-color: transparent;
   border: none;
   color: white;
   width: 100%;
   border-bottom: .1rem solid rgba(255, 255, 255, 0.616);
+}
+
+.errorLogin{
+  background-color: transparent;
+  border: none;
+  color: white;
+  width: 100%;
+  border-bottom: .1rem solid red !important;
 }
 
 .formInput{

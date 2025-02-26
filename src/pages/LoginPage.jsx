@@ -11,12 +11,12 @@ const LoginPage = () => {
   const [psw, setPsw] = useState('')
 
   useEffect(() => {
-    if (JSON.stringify(usuario) !== '{}' || (typeof user !== 'undefined')) {
+    console.log(usuario === '')
+    if (usuario !== '' && JSON.stringify(usuario) !== '{}') {
       console.log(from)
       navigate(from, { replace: true })
     }
   },[usuario])
-  
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -34,12 +34,26 @@ const LoginPage = () => {
       <div className= 'formLogin'>
         <form className='w-100' onSubmit={handleSubmit}>
           <div className='inputFormLoginContainer'>
-              <h4 style={{marginBottom: 0}}>E-mail: </h4>
-              <input type="email" placeholder='E-mail' autoComplete="off" onChange={onEmailChange} />
+            <h4 style={{ marginBottom: 0 }}>E-mail: </h4>
+            <div>
+              <div>
+                <input type="email" placeholder='E-mail' className={JSON.stringify(usuario) === '{}' ? 'errorLogin' : 'loginInput'} autoComplete="off" onChange={onEmailChange} />
+              </div>
+              <div style={{color: 'red', textAlign: 'start'}} className={JSON.stringify(usuario) === '{}' ? 'd-block' : 'd-none'}>
+                Wrong credentials
+              </div>
+            </div>
           </div>
           <div className= 'inputFormLoginContainer'>
             <h4 style={{marginBottom: 0}}>Password: </h4>
-            <input type="password" autoComplete="off" placeholder='Password' onChange={onPswChange} />
+            <div>
+              <div>
+                <input type="password" autoComplete="off" placeholder='Password' className={JSON.stringify(usuario) === '{}' ? 'errorLogin' : 'loginInput'} onChange={onPswChange} />
+              </div>
+              <div style={{color: 'red', textAlign: 'start'}} className={JSON.stringify(usuario) === '{}' ? 'd-block' : 'd-none'}>
+                Wrong credentials
+              </div>
+            </div>
           </div>
           <div className="d-flex justify-content-center align-items-center">
             <button
