@@ -25,6 +25,10 @@ const reducer = (state, action) => {
     case "LOGOUT": {
       return {}
     }
+      
+    case "RESETLOGIN": {
+      return initialState
+    }
   }
 }
 
@@ -42,8 +46,12 @@ const LoginProvider = ({children}) => {
     type: 'LOGOUT'
   }) 
 
+  const reset = () => dispatch({
+    type: 'RESETLOGIN'
+  })
+
   return (
-    <LoginContext.Provider value={{login, logout, usuario: state}}>
+    <LoginContext.Provider value={{login, reset, logout, usuario: state}}>
       {children}
     </LoginContext.Provider>
   )

@@ -6,9 +6,14 @@ const LoginPage = () => {
   const location = useLocation()
   const navigate = useNavigate()
   const from = location.state?.from?.pathname || '/'
-  const {login, usuario} = useContext(LoginContext)
+  const {login, usuario, reset} = useContext(LoginContext)
   const [email, setEmail] = useState('')
   const [psw, setPsw] = useState('')
+  
+  useEffect(() => {
+    reset()
+  }, [])
+  
 
   useEffect(() => {
     console.log(usuario === '')
